@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="14" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9697" started-at="2021-12-17T12:43:57Z" finished-at="2021-12-17T12:44:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9697" started-at="2021-12-17T12:43:57Z" finished-at="2021-12-17T12:44:06Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest@c81cdd1]" name="setup" is-config="true" duration-ms="846" started-at="2021-12-17T12:43:59Z" finished-at="2021-12-17T12:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NegativeLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@c81cdd1]" name="NegativeLogin" duration-ms="383" started-at="2021-12-17T12:44:00Z" finished-at="2021-12-17T12:44:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[devendradpi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dpi@00Ok]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:8080/SportyShoes/loginaction]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTest@c81cdd1]" name="teardown" is-config="true" duration-ms="86" started-at="2021-12-17T12:44:00Z" finished-at="2021-12-17T12:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest@c81cdd1]" name="setup" is-config="true" duration-ms="846" started-at="2021-12-17T12:44:00Z" finished-at="2021-12-17T12:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PositiveLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@c81cdd1]" name="PositiveLogin" duration-ms="344" started-at="2021-12-17T12:44:01Z" finished-at="2021-12-17T12:44:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[devendradpi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dpi@000k]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:8080/SportyShoes/dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PositiveLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTest@c81cdd1]" name="teardown" is-config="true" duration-ms="79" started-at="2021-12-17T12:44:01Z" finished-at="2021-12-17T12:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AddToCartTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AddToCartTest@1fc2b765]" name="setup" is-config="true" duration-ms="858" started-at="2021-12-17T12:44:01Z" finished-at="2021-12-17T12:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DoAddToCart(java.lang.String, java.lang.String)[pri:0, instance:tests.AddToCartTest@1fc2b765]" name="DoAddToCart" duration-ms="565" started-at="2021-12-17T12:44:02Z" finished-at="2021-12-17T12:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[devendradpi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dpi@000k]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoAddToCart -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.AddToCartTest@1fc2b765]" name="teardown" is-config="true" duration-ms="103" started-at="2021-12-17T12:44:03Z" finished-at="2021-12-17T12:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.AddToCartTest -->
+      <class name="tests.SignupTest">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:tests.SignupTest@43738a82]" name="ReportSetup" is-config="true" duration-ms="114" started-at="2021-12-17T12:43:57Z" finished-at="2021-12-17T12:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SignupTest@43738a82]" name="setup" is-config="true" duration-ms="910" started-at="2021-12-17T12:43:57Z" finished-at="2021-12-17T12:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DoSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SignupTest@43738a82]" name="DoSignUp" duration-ms="899" started-at="2021-12-17T12:43:58Z" finished-at="2021-12-17T12:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[devendradpi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dpi@000k]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Devendra]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Indapawar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.SignupTest@43738a82]" name="teardown" is-config="true" duration-ms="87" started-at="2021-12-17T12:43:59Z" finished-at="2021-12-17T12:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="ReportTeardown()[pri:0, instance:tests.SignupTest@43738a82]" name="ReportTeardown" is-config="true" duration-ms="297" started-at="2021-12-17T12:44:06Z" finished-at="2021-12-17T12:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportTeardown -->
+      </class> <!-- tests.SignupTest -->
+      <class name="tests.CheckoutAndOrderTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CheckoutAndOrderTest@75881071]" name="setup" is-config="true" duration-ms="791" started-at="2021-12-17T12:44:03Z" finished-at="2021-12-17T12:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DoCheckoutAndOrder(java.lang.String, java.lang.String)[pri:0, instance:tests.CheckoutAndOrderTest@75881071]" name="DoCheckoutAndOrder" duration-ms="917" started-at="2021-12-17T12:44:04Z" finished-at="2021-12-17T12:44:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[devendradpi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dpi@000k]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoCheckoutAndOrder -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.CheckoutAndOrderTest@75881071]" name="teardown" is-config="true" duration-ms="96" started-at="2021-12-17T12:44:05Z" finished-at="2021-12-17T12:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.CheckoutAndOrderTest -->
+      <class name="tests.LogoutTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LogoutTest@2a70a3d8]" name="setup" is-config="true" duration-ms="852" started-at="2021-12-17T12:44:05Z" finished-at="2021-12-17T12:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Logout(java.lang.String, java.lang.String)[pri:0, instance:tests.LogoutTest@2a70a3d8]" name="Logout" duration-ms="471" started-at="2021-12-17T12:44:05Z" finished-at="2021-12-17T12:44:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[devendradpi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dpi@000k]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LogoutTest@2a70a3d8]" name="teardown" is-config="true" duration-ms="123" started-at="2021-12-17T12:44:06Z" finished-at="2021-12-17T12:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
